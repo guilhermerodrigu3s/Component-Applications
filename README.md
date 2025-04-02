@@ -10,7 +10,7 @@ This repository contains implementations of reusable components developed with H
 ## Components / Componentes
 
 ### Carousel  
-![Carousel Preview](carousel/screenshot.jpg)  
+![Carousel Preview](component-applications/accordion/screenshot.jpg)  
 🔗 [Ver código HTML](carousel/carousel.html) |
 
 ### Accordion  
