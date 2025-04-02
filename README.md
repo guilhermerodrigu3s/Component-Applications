@@ -1,4 +1,4 @@
-📚 Credits
+
 This repository was created based on the studies from the "HTML & CSS Course – Build Responsive Real-World Websites" by Jonas Schmedtmann.
 
 # Component Applications
