@@ -10,20 +10,20 @@ This repository contains implementations of reusable components developed with H
 ## Components / Componentes
 
 ### Carousel  
-![Carousel Preview](component-applications/accordion/screenshot.jpg)  
-🔗 [Ver código HTML](carousel/carousel.html) |
+![Carousel Preview](component-applications/carousel/screenshot.jpg)  
+🔗 [Ver código HTML](component-applications/carousel/carousel.html)
 
 ### Accordion  
-![Accordion Preview](accordion/screenshot.jpg)  
-🔗 [Ver código HTML](accordion/index.html)
+![Accordion Preview](component-applications/accordion/screenshot.jpg)  
+🔗 [Ver código HTML](component-applications/accordion/index.html)
 
 ### Table  
-![Table Preview](table/screenshot.jpg)  
-🔗 [Ver código HTML](table/table.html) 
+![Table Preview](component-applications/table/screenshot.jpg)  
+🔗 [Ver código HTML](component-applications/table/table.html) 
 
 ### Pagination  
-![Pagination Preview](pagination/screenshot.jpg)  
-🔗 [Ver código HTML](pagination/pagination.html) 
+![Pagination Preview](component-applications/pagination/screenshot.jpg)  
+🔗 [Ver código HTML](component-applications/pagination/pagination.html) 
 
 ## Usage / Uso
 
