@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    /* main color : #1864ab  */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Inter", sans-serif;
+    }
+
+    .title {
+      color: #1864ab;
+    }
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+    .accordion {
+      width: 700px;
+      margin: 100px auto;
+      display: grid;
+      grid-template-columns: 0px 1fr 0px;
+      padding: 24px;
+      align-items: center;
+      box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+      border-top: 4px solid #1864ab;
+    }
+    .title {
+      display: flex;
+      gap: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      grid-column: 2;
+    }
+    .content {
+      grid-column: 2;
+      margin-left: 50px;
+    }
+    .content-title {
+      margin-bottom: 20px;
+    }
+    ul {
+      color: #8f8f8f;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      margin-left: 20px;
+    }
+  </style>
+  <body>
+    <div class="accordion">
+      <div class="title">
+        <p class="number">02</p>
+        <p class="text-title">How long I have to return my chair?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </div>
+
+      <div class="content">
+        <p class="content-title">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+        </p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. e</li>
+          <li>
+            Mollitia nostrum facere, enim et, blanditiis accusantium neque
+          </li>
+          <li>
+            asperiores! Assumenda est maxime incidunt praesentium odit, labore
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
